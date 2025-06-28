@@ -1,0 +1,317 @@
+.rows {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.col-1image {
+    width: 15%;
+}
+
+.col-1serchbar {
+    width: 40%
+}
+
+.col-1location-section {
+    width: 25%
+}
+
+.col-1icon-section {
+    width: 15%;
+}
+
+.Header {
+    font-family: "Roboto", sans-serif;
+}
+
+.icon-group {
+    margin-top: 3px;
+    margin-right: 26px;
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: center;
+    gap: 25px;
+    float: right;
+}
+
+.Account,
+.wishlists,
+.addtocart {
+    color: gray;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.addtocart {
+    position: relative;
+}
+
+.Account:hover {
+    color: rgb(209, 42, 70);
+}
+
+.wishlists {
+    position: relative;
+}
+
+.wishlists:hover {
+    color: rgb(209, 42, 70);
+}
+
+.addtocart:hover {
+    color: rgb(209, 42, 70);
+}
+
+.Category {
+    cursor: pointer;
+}
+
+.Category {
+    display: flex;
+    gap: 28px;
+    padding: 20px 150px;
+    flex-wrap: wrap;
+    /* overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+   */
+}
+
+.Category li {
+    list-style: none;
+}
+
+.Category li:hover {
+    color: #C91E39;
+}
+
+.dropdown-list li {
+    transition: background 0.2s;
+}
+
+.dropdown-list li:hover {
+    color: rgb(209, 42, 70) !important;
+}
+
+.popup-wrapper {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    padding-top: "20px";
+    width: 100%;
+}
+
+.popup-box {
+    background-color: white;
+    width: auto;
+    height: auto;
+    box-shadow: 5px 5px 3px 6px #00000029;
+}
+
+.dropdown-list {
+    list-style: none;
+    /* padding: 10px; */
+    /* margin: 0; */
+}
+
+.dropdown-list li {
+    color: gray;
+    margin: 7px 0px;
+    padding: 10px;
+    cursor: pointer;
+    /* width: 100%; */
+}
+
+.winni-cakes-dropdown {
+    /* display: flex; */
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 29px 30px;
+    gap: 30px;
+    /* min-width: 1300px; */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    /* flex-wrap: wrap; */
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.cake-left {
+    display: flex;
+    gap: 30px;
+    width: 55%;
+}
+
+/* .winni-cakes-dropdown .column {
+    flex: 1 1 180px;
+} */
+
+.winni-cakes-dropdown h4 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.winni-cakes-dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.winni-cakes-dropdown li {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 17px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.winni-cakes-dropdown li:hover {
+    color: #C91E39;
+}
+
+.vertical-line {
+    width: 1px;
+    background-color: #ccc;
+    margin: 0 20px;
+}
+
+.cakes-right {
+    width: 40%;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 40px;
+}
+
+.trending-links .title {
+    color: #ff1493;
+    font-weight: bold;
+    margin-bottom: 6px;
+    width: 129px;
+    font-size: 14px;
+}
+
+.trending-links ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 84px;
+}
+
+.trending-links li {
+    font-size: 13px;
+    padding: 8px 0px;
+    margin-bottom: 4px;
+    margin-top: 10px;
+}
+
+.image-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-section img {
+    width: 200px;
+    height: auto;
+    border-radius: 6px;
+}
+
+.image-section span {
+    margin-top: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #222;
+}
+
+.account-dropdown {
+    /* top: 87px;
+    background: white;
+    width: 251px;
+    height: 176px;
+    position: absolute;
+    z-index: 999;
+    right: 128px; */
+    position: absolute;
+    top: 66px;
+    right: 112px;
+    /* width: 150px; */
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 1000;
+    text-align: left;
+    cursor: pointer;
+}
+
+.account-dropdown h3:hover,
+.account-dropdown p:hover,
+.account-dropdown span:hover {
+    color: blue !important;
+}
+
+.SignLoginbox {
+    box-shadow: 0 1px 10px pink;
+    margin-right: 66px;
+    padding: 2px;
+}
+
+.SignLoginbox span {
+    color: #ff1493 !important;
+}
+
+@media(min-width:1024px) {
+    .Category {
+        padding: 20px 50px
+    }
+}
+
+@media(max-width:999px) {
+    .Category {
+        padding: 20px 50px
+    }
+}
+
+@media(max-width:768px) {
+    .nav {
+        display: none !important;
+    }
+
+    .rows {
+        margin: 5px;
+    }
+
+    .col-1image {
+        display: none;
+    }
+
+    .col-1location-section {
+        display: none;
+    }
+
+    .col-1serchbar {
+        width: 70%;
+    }
+
+    .col-1icon-section {
+        width: 30%;
+        margin-right: 14px;
+    }
+
+    .icon-group {
+        float: none;
+        padding-left: 5px;
+        gap: 20px;
+    }
+}

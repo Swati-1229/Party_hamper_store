@@ -1,0 +1,137 @@
+.checkout-page {
+    background: #fff;
+    padding: 20px 0;
+}
+
+.checkout-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.checkout-inner {
+    max-width: 1140px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.checkout-form {
+    flex: 0 0 68%;
+    padding: 20px;
+}
+
+.checkout-summary {
+    flex: 0 0 30%;
+    padding: 20px;
+    /* background: #f9f9f9; */
+}
+
+.address-section label {
+    float: left;
+    font-size: 12px;
+}
+
+.PincodeCity-Section {
+    display: flex;
+    gap: 20px;
+}
+
+.Mobile-Number-Section {
+    display: flex;
+    gap: 20px;
+
+}
+
+.input-box {
+    flex: 1;
+    position: relative;
+}
+
+.input-box span {
+    line-height: 2.4rem;
+    position: absolute;
+    left: 10px;
+    top: 68%;
+    transform: translateY(-50%);
+    color: #555;
+    font-size: 14px;
+    border-right: 1px solid #e6e6e6;
+    padding-right: 10px;
+    background: white;
+}
+
+.number-input {
+    padding-left: 60px;
+    height: 43px;
+}
+
+.cancelsave-section {
+    /* width: 100%; */
+    display: flex;
+    margin: 7px;
+    gap: 20px;
+}
+
+.cancelsave-section button:nth-child(1) {
+    padding: 15px;
+    border: 1px solid lightgray;
+    color: black;
+    width: 49%;
+    flex: 1;
+}
+
+.cancelsave-section button:nth-child(2) {
+    color: white;
+    background-color: rgb(12, 190, 12);
+    border: 1px solid lightgray;
+    width: 49%;
+    flex: 1;
+}
+
+.summary-details {
+    border-radius: 0px;
+}
+
+.count-price-section {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.btnofficehomeother button {
+    border: 1px solid gray;
+    background: white;
+    padding: 7px;
+}
+
+@media (max-width: 992px) {
+    .checkout-inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .checkout-form,
+    .checkout-summary {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .btnofficehomeother button {
+        width: 100%;
+        padding: 9px 0px;
+
+    }
+
+    .Mobile-Number-Section {
+        display: block;
+    }
+
+    .PincodeCity-Section {
+        display: block;
+    }
+
+
+}

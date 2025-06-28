@@ -1,0 +1,256 @@
+.description-content {
+    padding: 30px 0 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+    color: #666
+}
+
+.description-content-part1 {
+    margin: 0 120px;
+}
+
+.description-content h1 {
+    text-align: center;
+    color: #666;
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+
+.description-content p {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.description-content a {
+    text-decoration: none;
+    color: #039be5;
+}
+
+.description-content h2 {
+    font-size: 20px;
+    margin: 42px 0 16px 0;
+    text-align: left;
+}
+
+.description-content h3 {
+    font-size: 18px;
+    margin: 42px 0 16px 0;
+    text-align: left;
+
+}
+
+.Recommended_latest_reads_for_our_blogs {
+    color: #111;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    margin-top: 97px;
+}
+
+.blog-expert-container {
+    /* padding: 0 20px; */
+    margin: 20px 110px 65px;
+    /* margin-bottom: 50px; */
+}
+
+.blog-expert-container .row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: grid;
+    /* flex-wrap: nowrap; */
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.blog-col {
+    padding: 0 .75rem;
+    min-height: 1px;
+    float: left;
+}
+
+.blog-title {
+    text-align: left;
+}
+
+.full-width-footer {
+    width: 100%;
+    background: #eeeeee;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-highlight-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* or space-around */
+    align-items: center;
+    padding: 20px 23px 20px 50px;
+    border-bottom: 1px solid #ccc;
+    background: #eeeeee;
+    box-sizing: border-box;
+}
+
+.footer-highlight-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 300px;
+    text-align: left;
+}
+
+.footer-highlight-item img {
+    height: 40px;
+}
+
+.title {
+    font-weight: 600;
+    color: #666;
+    font-size: 16px;
+}
+
+.subtitle {
+    font-size: 13px;
+    color: #1c1c1c;
+}
+
+@media (min-width: 993px) {
+    .col-13 {
+        width: 25%;
+        margin-left: auto;
+    }
+}
+
+.company-details-related-container {
+    display: flex;
+    padding: 20px;
+}
+
+.col-13 ul {
+    list-style: none;
+    border-right: 2px solid #dfdcdc;
+    width: 70%;
+}
+
+.col-13 ul li {
+    padding: 6px 0
+}
+
+.connection-plateform {
+    background-color: #F5F5F5;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    color: #333;
+
+}
+
+.connection-platform-part1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 20px 60px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+footer {
+    background-color: #f8f8f8;
+    /* min-width: 1300px; */
+}
+
+.footer-top {
+    text-align: center;
+    padding: 20px 10px 10px;
+}
+
+.footer-top strong {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.social-icons a {
+    margin: 0 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer-mid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #e0dcdc;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.footer-mid div {
+    margin: 8px 10px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 600;
+}
+
+.footer-mobile {
+    padding: 15px 14px;
+    flex: 1;
+    font-size: 20px;
+}
+
+.footer-mobile img {
+    margin: 5px;
+    height: 56px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 30px;
+    /* background-color: #fff; */
+    line-height: 1.6;
+    margin-bottom: 67px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-mid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-mid div {
+        justify-content: center;
+    }
+
+    .footer-highlight-bar {
+        padding: 12px 15px 12px 15px;
+    }
+
+    .footer-highlight-item .title {
+        font-size: 11px;
+    }
+
+    .footer-highlight-item .subtitle {
+        font-size: 8px;
+    }
+
+    .company-details-related-container ul {
+        width: 100%
+    }
+
+    .company-details-related-container ul li {
+        font-size: 10px !important;
+    }
+
+    .connection-platform-part1 {
+        padding: 20px 10px;
+    }
+
+    .footer-top {
+        width: 100%;
+    }
+
+}

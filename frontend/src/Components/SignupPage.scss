@@ -1,0 +1,121 @@
+.signup-heading {
+    text-align: center;
+    padding: 30px 10px;
+    font-size: 20px;
+    /* text-transform: uppercase; */
+}
+
+.Main-container {
+    display: grid;
+    place-items: center;
+    margin: 10px 10px 40px 10px;
+
+
+    .container {
+        // background: #1B3A4B;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        max-width: 700px;
+        width: 70%;
+        color: #fff;
+        display: block;
+        margin: auto;
+
+
+        .container h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 28px;
+            font-size: 23px;
+            text-transform: uppercase;
+        }
+
+        form {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        form>div {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container p a {
+            cursor: pointer;
+        }
+
+        .container p a:hover {
+            color: yellow;
+        }
+
+        label {
+            color: #232222;
+            margin-bottom: 5px;
+            font-weight: 600;
+            text-align: left;
+        }
+
+        .signup-box input {
+            padding: 8px;
+            border: 1px solid #64B5F6;
+            border-radius: 0px;
+            outline: none;
+            background: #fff;
+            color: black;
+            width: 100%;
+            /* color: transparent; */
+            font-weight: bold;
+        }
+
+
+        .icon-container {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            color: black;
+        }
+
+        input::placeholder {
+            color: #bcb7b7;
+            font-weight: bold;
+            opacity: 0.8;
+            font-size: 18px;
+        }
+
+        button {
+            grid-column: span 2;
+            padding: 12px;
+            // background: linear-gradient(to left, #93C6CE, #4A6468);
+            color: #fff;
+            border: none;
+            // border-radius: 23px;
+            cursor: pointer;
+            text-align: center;
+            font-family: ui-monospace;
+            text-transform: uppercase;
+        }
+
+        button:hover {
+            background: #55a3a3;
+        }
+
+        p {
+            text-align: center;
+            margin-top: 20px;
+            color: black;
+        }
+
+        a {
+            // color: white;
+            // text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+}
